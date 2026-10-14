@@ -1,7 +1,7 @@
 # SWE-bench Evaluation Container for oh-my-claudecode
 # Supports both vanilla Claude Code and OMC-enhanced modes
 
-FROM python:3.11-slim
+FROM python:3.11.17-slim@sha256:e88e9763f943ec1834f992a4b51e0f24500486803e8bc534e5767af9ea65f6ce
 
 # Prevent interactive prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
